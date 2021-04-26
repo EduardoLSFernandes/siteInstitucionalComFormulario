@@ -1,0 +1,245 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background: #FEFEFE;
+}
+
+/*menu*/
+
+header {
+	background: #1e1919;
+	padding: 20px 0;
+}
+
+.menu {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #fefefe;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #a98fff;
+	text-decoration: underline;
+}
+
+/*fim do menu*/
+
+/*index*/
+.banner {
+	width: 100%;
+}
+
+.main-title {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.main {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.main p {
+	margin: 0 0 1em;
+}
+
+.main-image{
+	width: 300px;
+	float: left;
+	margin: 0 20px 20px 0;
+	box-shadow: 10px 10px 10px 0px;
+
+}
+
+.map {
+	padding: 3em 0;
+	text-align: center;
+	background: linear-gradient(#FEFEFE,#a98fff);
+
+}
+
+.map p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.map-content {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+
+.video-bg{
+	padding: 1px;
+	background: #a98fff;
+}
+
+/*fim do index*/
+
+/*footer*/
+
+footer {
+	text-align: center;
+	background: url("img/bg.jpg");
+	padding: 40px 0;
+	clear: both;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+/*fim do footer*/
+
+/*portfolio*/
+
+.portfolio {
+	padding: 2em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+	text-align: left;
+	clear: left;
+}
+
+.portfolio p {
+	margin: 0 0 2em;
+	text-align: left;
+}
+
+.portfolio h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 2em 1em;
+    text-shadow: 2px 2px #a98fff;
+    color: #fff;
+    background: #000;
+}
+
+.portfolio-image{
+	width: 500px;
+	float: left;
+	margin: 0 20px 20px 0;
+	box-shadow: 10px 10px 10px 0px;
+}
+
+	/*fim do portfolio*/
+
+	/*contato*/
+
+.form {
+	width: 940px;
+	margin: 2em auto;
+}
+
+textarea {
+	margin: 0 0 3em;
+}
+
+.tabela {
+	width: 940px;
+	margin: 3em auto;
+}	
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-main {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;	
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.send {
+	width: 40%;
+	padding: 15px 0;
+	background: #222222;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+
+.send:hover {
+	background: green;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+	/*fim do contato*/
+
+	/*mobile*/
+
+@media screen and (max-width: 480px){
+	
+	.menu, .banner, .main, .main-title, .map, .video-bg {
+		width: auto;
+		padding: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+}	
+
